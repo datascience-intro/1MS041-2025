@@ -7524,7 +7524,7 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=41a649cb">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b5a49f1d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7566,7 +7566,7 @@ Since the system changes randomly, it is generally impossible to predict the exa
 <p>$$\mathbf{P} = \begin{bmatrix} p_{0,0} &amp; p_{0,1} &amp; p_{0,2} &amp; \ldots \\ p_{1,0} &amp; p_{1,1} &amp; p_{1,2} &amp; \ldots \\ p_{2,0} &amp; p_{2,1} &amp; p_{2,2} &amp; \ldots \\ \vdots &amp; \vdots &amp; \vdots &amp; \ddots \end{bmatrix}$$</p>
 <p>The state of the system at the $n$-th time step is described by a state probability vector $$\mathbf{p}^{(n)} = \left( \mathbf{p}^{(n)}_0, \mathbf{p}^{(n)}_1, \mathbf{p}^{(n)}_2,\ldots \right)$$ Thus, $\mathbf{p}^{(n)}_i$ is the probability you will find the Markov chain at state $i \in \mathbb{X}$ at time-step $n$ and $\mathbf{p}^{(0)}_i$ is called the initial probability vector at the convenient initial time $0$.</p>
 <p>The state space $\mathbb{X}$ and transition probability matrix $\mathbf{P}$ completely characterizes a Markov chain.</p>
-<h3 id="Example-1:-Dry-Wet-chain,-a-toy-weather-model">Example 1: Dry-Wet chain, a toy weather model<a class="anchor-link" href="#Example-1:-Dry-Wet-chain,-a-toy-weather-model">¶</a></h3><h4 id="A-SageMath-break-down-of-the-Wiki-Example">A SageMath break-down of the <a href="https://en.wikipedia.org/wiki/Examples_of_Markov_chains#A_simple_weather_model">Wiki Example</a><a class="anchor-link" href="#A-SageMath-break-down-of-the-Wiki-Example">¶</a></h4>
+<h3 id="Example-1:-Dry-Wet-chain,-a-toy-weather-model">Example 1: Dry-Wet chain, a toy weather model<a class="anchor-link" href="#Example-1:-Dry-Wet-chain,-a-toy-weather-model">¶</a></h3><h4 id="A-break-down-of-the-Wiki-Example">A break-down of the <a href="https://en.wikipedia.org/wiki/Examples_of_Markov_chains#A_simple_weather_model">Wiki Example</a><a class="anchor-link" href="#A-break-down-of-the-Wiki-Example">¶</a></h4>
 </div>
 </div>
 </div>
@@ -7847,7 +7847,7 @@ How do we do this in Python?</p>
 <p>General rules for day $n$ follow from mathematical induction as follows:</p>
 <p>$$ \mathbf{p}^{(n)} = \mathbf{p}^{(n-1)} \ \mathbf{P} $$
 $$ \mathbf{p}^{(n)} = \mathbf{p}^{(0)} \ \mathbf{P}^n $$
-How do we operate with a matrix in SageMath to do this for any given $n$?</p>
+How do we operate with a matrix in numpy to do this for any given $n$?</p>
 </div>
 </div>
 </div>
