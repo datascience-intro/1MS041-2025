@@ -1,9 +1,9 @@
 ---
 ## Introduction to Data Science 1MS041
 
-You can download the Lecture notes [here](https://datascience-intro.github.io/1MS041-2024/Files/LectureNotes1MS041.pdf).
+You can download the Lecture notes [here](https://datascience-intro.github.io/1MS041-2025/Files/LectureNotes1MS041.pdf).
 
-Precision Recall survey [here](https://datascience-intro.github.io/1MS041-2024/Files/AveragePrecision.pdf)
+Precision Recall survey [here](https://datascience-intro.github.io/1MS041-2025/Files/AveragePrecision.pdf)
 
 
 ### Introductory Jupyter .ipynb Notebooks
